@@ -3,7 +3,7 @@
 body {
   background: #d4d4d4 url("../images/background.png");
   text-align: center;
-  font-family: sans-serif; }
+}
 
 h1 {
 /*  color: rgba(0, 0, 0, .3);
@@ -55,6 +55,33 @@ h1 {
 }
 
 #hero {
-  max-width: 300px;
   background-image: url('images/logo.jpg')
+  max-width: 120px;
+  /*height: 120px;*/
+  height: auto;
+  margin: 3px;
+  padding: 3px;
+}
+
+img {
+/*    max-width: 100%;*/
+    height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+#navcontainer ul li { display: inline; }
+
+h1 {
+  font-family: 'Playball', cursive;
+}
+
+p {
+  font-family: 'Playball', cursive;
+}
+
+.thumbnail {
+      background-color: rgba(00,00,00,1;
 }
