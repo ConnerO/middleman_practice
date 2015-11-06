@@ -55,6 +55,6 @@ h1 {
 }
 
 #hero {
-  width: 300px;
+  max-width: 300px;
   background-image: url('images/logo.jpg')
 }
