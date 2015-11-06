@@ -5,17 +5,6 @@ body {
   text-align: center;
 }
 
-h1 {
-/*  color: rgba(0, 0, 0, .3);
-  font-weight: bold;
-  font-size: 32px;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: url("../images/middleman.png") no-repeat center 100px;
-  padding: 350px 0 10px;
-  margin: 0; */}
-
 .doc {
   font-size: 14px;
   margin: 0; }
@@ -68,20 +57,45 @@ img {
     height: auto;
 }
 
+#navcontainer ul li { 
+  display: inline;
+  horizontal-align: center; 
+}
+
+#footercontainer {
+  margin-top: 20px;
+}
+
+#footercontainer ul li {
+  display: inline;
+  horizontal-align: center;
+  font-size: 16pt;
+}
+
+#mtm {
+  font-size: 72pt;
+}
+
+h1, h2, h3, p, li {
+  font-family: 'Playball', cursive;
+}
+
+h2 {
+  font-size: 14pt;
+}
+
+h3 {
+  font-size: 12pt;
+}
+
 li {
   list-style: none;
-}
-
-#navcontainer ul li { display: inline; }
-
-h1 {
-  font-family: 'Playball', cursive;
-}
-
-p {
-  font-family: 'Playball', cursive;
+  font-size: 24pt;
+  padding: 0 10px;
 }
 
 .thumbnail {
-      background-color: rgba(00,00,00,1;
+  background-color: rgba(00,00,00,1;
 }
+
+
